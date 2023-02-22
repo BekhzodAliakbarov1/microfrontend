@@ -4,10 +4,10 @@ const ModuleFederationPlugin = require("webpack/lib/container/ModuleFederationPl
 const packageJson = require("../package.json");
 
 const prodConfig = {
-  mode: "development",
+  mode: "production",
   output: {
     filename: "[name].[contenthash].js",
-    publicPath: '/marketing/latest/'
+    publicPath: "/marketing/latest/",
   },
   plugins: [
     new ModuleFederationPlugin({
