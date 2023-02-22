@@ -25,7 +25,6 @@ function Copyright() {
     </Typography>
   );
 }
-
 const useStyles = makeStyles((theme) => ({
   "@global": {
     ul: {
